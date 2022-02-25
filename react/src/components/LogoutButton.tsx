@@ -4,6 +4,7 @@ import { IonButton } from "@ionic/react";
 import { callbackUri } from "../auth.config";
 
 const LogoutButton: React.FC = () => {
+  
   const { buildLogoutUrl, logout } = useAuth0();
 
   const doLogout = async () => {
